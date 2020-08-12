@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Dinner from './Dinner';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          Good Morning ;-)
         </p>
         <a
           className="App-link"
@@ -17,7 +19,10 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          
         </a>
+
+        <Dinner />
       </header>
     </div>
   );
